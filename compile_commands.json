@@ -1,0 +1,40 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-g",
+      "-Wall",
+      "-mcpu=cortex-m4",
+      "-mthumb",
+      "-mfloat-abi=soft",
+      "-Iinc",
+      "-ffreestanding",
+      "-c",
+      "-o",
+      "src/obj/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/strayker/Coding/083_STM32F4_MSM_c",
+    "file": "/home/strayker/Coding/083_STM32F4_MSM_c/src/main.c",
+    "output": "/home/strayker/Coding/083_STM32F4_MSM_c/src/obj/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-g",
+      "-Wall",
+      "-mcpu=cortex-m4",
+      "-mthumb",
+      "-mfloat-abi=soft",
+      "-Iinc",
+      "-ffreestanding",
+      "-c",
+      "-o",
+      "src/obj/startup_STM32F401RE.o",
+      "startup/startup_STM32F401RE.c"
+    ],
+    "directory": "/home/strayker/Coding/083_STM32F4_MSM_c",
+    "file": "/home/strayker/Coding/083_STM32F4_MSM_c/startup/startup_STM32F401RE.c",
+    "output": "/home/strayker/Coding/083_STM32F4_MSM_c/src/obj/startup_STM32F401RE.o"
+  }
+]
